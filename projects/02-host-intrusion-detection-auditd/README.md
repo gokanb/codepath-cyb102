@@ -23,8 +23,6 @@ In real incident response the first question is: *"what changed on this system, 
 
 > attack-b modified **two** files — exactly the kind of detail a file-integrity log surfaces that you'd never catch by eye.
 
-![auditd log](screenshots/auditd-log.png)
-
 ## Why it matters
 
 Host-based detection catches what network monitoring can't — changes that happen on the machine itself. A file-level audit trail is the backbone of post-incident forensics and breach attribution.
